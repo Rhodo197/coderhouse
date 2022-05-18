@@ -137,3 +137,53 @@ position: relative;
     text-transform: uppercase;
     margin-left: 12cm;
 }
+.grid-hijo{
+    padding: 10px;
+    position: relative;
+}
+.grids-novedades{
+    border: 2px none black;
+    padding: 1rem;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    column-gap: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    }
+.grid-imagen-novedades{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+@media screen and (max-width: 1023px){
+    .container{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .container{
+        display: flex;
+    }
+    .header{
+        flex-direction: row;
+    }
+    .nav{
+        display: none;
+    }
+    .seccion-titulo{
+    font-size: 25px;
+    color: aliceblue;    
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .grids{
+        flex-direction: row;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+   
