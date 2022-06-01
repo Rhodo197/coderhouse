@@ -90,7 +90,7 @@ header .fa-bars {
 }
 
 .home {
-    min-height: 80vh;
+    min-height: 90vh;
     background-image: url(imagenes/inicio.jpg);
     background-size: cover;
     background-position: center;
@@ -99,9 +99,9 @@ header .fa-bars {
     overflow: hidden;
     position: relative;
 }
-.home-novedades {
-    min-height: 80vh;
-    background-image: url(imagenes/loosing-my-mind.jfif);
+.novedades {
+    min-height: 90vh;
+    background-image: url(imagenes/stmpd-recop.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -109,39 +109,39 @@ header .fa-bars {
     overflow: hidden;
     position: relative;
 }
-.home-merch {
+.merch {
     min-height: 80vh;
+    background-image: url(imagenes/buzo.stmpd.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
+}
+.faq {
+    min-height: 90vh;
+    background-image: url(imagenes/omnia1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
+}
+.contacto {
+    min-height: 85vh;
+    background-image: url(imagenes/staff-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
+}
+.shows {
+    min-height: 90vh;
     background-image: url(imagenes/inicio-3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    z-index: 0;
-    overflow: hidden;
-    position: relative;
-}
-.home-faq {
-    min-height: 80vh;
-    background-image: url(imagenes/inicio-2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    z-index: 0;
-    overflow: hidden;
-    position: relative;
-}
-.home-contacto {
-    min-height: 80vh;
-    background-image: url(imagenes/staff.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    z-index: 0;
-    overflow: hidden;
-    position: relative;
-}
-.home-shows {
-    min-height: 80vh;
-    background-image: url(imagenes/wall-ultra.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -342,10 +342,95 @@ header .fa-bars {
     color: darkgray;
 }
 
+.grid{
+    display: grid;
+    width: 80%;
+    margin: 0;
+    margin-left: 60px;
+    background-color: black;
+    padding: 20px;
+    grid-template-columns: repeat(4, 250px);
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    
+    
 
+}
+.grid-hijo{
+    background-color: #171717;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+    border: 4px;
+    text-align: center;
+    font-size: 3rem;
+    color: #eee;
+    
+}
+.grid-show{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 95%;
+    grid-template-rows: repeat(9, auto);
+    margin: 10px;
+    background-color: #171717;
+    justify-content: center;
+}
+.ghijo-show{
+    height: 600px;
+    margin: 1cm;
+}
+.title-show{
+    text-transform: uppercase;
+    text-decoration: underline;
+    border: 5px;
+    text-align: center;
+    font-size: 3rem;
+    color: whitesmoke
+}
+.mg{
+    min-height: 50hv;
+    background-image: url(imagenes/mg.jpg);
+    background-size: cover;
+}
+.a21{
+    background-image: url(imagenes/area21\,2.jpg);
+}
+.db{
+    background-image: url(imagenes/db-3.jpeg);
+    color: #0c0b0b;
+}
+.bl{
+    background-image: url(imagenes/bl.jpg);
+}
+.bc{
+    background-image: url(imagenes/bc.jpeg);
+}
+.ms{
+    background-image: url(imagenes/ms.jpg);
+}
+.jm{
+background-image: url(imagenes/jm.jpg.crdownload);
+}
+.loop{
+background-image: url(imagenes/loop.jpg);
+}
+.jj{
+background-image: url(imagenes/jj.jpg);
+}
+.faqq{
+    background-image: url(imagenes/staff.jpg);
+}
+.fechas{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 2rem;
 
-
-
+}
+.ct{
+    font-size: 1.5rem;
+}
 
 @media (max-width: 768px) {
     
