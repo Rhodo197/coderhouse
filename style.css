@@ -392,32 +392,50 @@ header .fa-bars {
 .mg{
     min-height: 50hv;
     background-image: url(imagenes/mg.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
     background-size: cover;
 }
 .a21{
     background-image: url(imagenes/area21\,2.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
 }
 .db{
     background-image: url(imagenes/db-3.jpeg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
     color: #0c0b0b;
 }
 .bl{
     background-image: url(imagenes/bl.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
 }
 .bc{
     background-image: url(imagenes/bc.jpeg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
 }
 .ms{
     background-image: url(imagenes/ms.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
 }
 .jm{
-background-image: url(imagenes/jm.jpg.crdownload);
+background-image: url(imagenes/screen.jpg);
+background-color: rgb(50, 50, 50);
+background-blend-mode: soft-light;
 }
 .loop{
 background-image: url(imagenes/loop.jpg);
+background-color: rgb(100, 100, 100);
+background-blend-mode: soft-light;
 }
 .jj{
 background-image: url(imagenes/jj.jpg);
+background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
 }
 .faqq{
     background-image: url(imagenes/staff.jpg);
@@ -430,6 +448,74 @@ background-image: url(imagenes/jj.jpg);
 }
 .ct{
     font-size: 1.5rem;
+}
+.boton-neon{
+    position: relative;
+    display: block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.boton-neon:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s;
+}
+.boton-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#a945c7);
+}
+.boton-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#a945c7);
+}
+.boton-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(180deg,transparent,#a945c7);
+}
+.boton-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(360deg,transparent,#a945c7);
+}
+.boton-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
 }
 
 @media (max-width: 768px) {
